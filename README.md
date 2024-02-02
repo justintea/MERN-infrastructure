@@ -1,8 +1,14 @@
-# React + Vite
+# MERN stack infrastructure
+I've set up this MERN stack, as a foundational template to bootstrap infrastructure. It is designed to be reused for future projects, providing a structured starting point for setting up infrastructure code. By cloning this repository, developers can quickly initiate new projects with a consistent and organized foundation, saving time and ensuring best practices are followed. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Key features
+- Frontend: Signup & login components, forms, pages 
+- Middleware: Utilities modules, JWT authentication 
+- Backend: Server.js → Routes → Controllers → Model/Schema
+- Testing: Bruno API client
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Frameworks & languages  
+- MongoDB: non-relational database infrastructure, for flexible data requirements
+- Express.js: an unopinioniated, minimalistic, lightweight web framework, using Node's built-in HTTP module to listen and respond to AJAX requests 
+- React.js: an open-source JS library to develop & render user interfaces,the current standard in frontend implementation, created by Facebook Engineer Jordan Walke
+- Node.js: a runtime enivronment to run JS outside the browser
